@@ -1,0 +1,79 @@
+/********************* Tag Selector*********************/
+body {
+  background-color: #def4f0;
+  margin: 0;
+}
+
+button:hover {
+  background-color: #c3edea;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+}
+
+table {
+  border-style: none;
+  text-align: center;
+  background-color: #def4f0;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 35px;
+}
+
+/********************* Class Selector*********************/
+.secciones {
+  background-color: #def4f0;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.FirstHR {
+  border-color: grey;
+  border-style: none;
+  border-top-style: inset;
+  border-width: 1px;
+  margin-top: 2px;
+  width: 100%;
+}
+
+.title {
+  background-color: #def4f0;
+  font-family: 'Sacramento', cursive;
+  left: 50px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.mountain {
+  text-align: center;
+}
+
+.SecSection {
+  background-color: #74d4c0;
+  margin: 0;
+  text-align: center;
+}
+
+.circular {
+  border-radius: 100%;
+  margin: 15px;
+}
+
+.Top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+}
+
+.Bottom-cloud {
+  position: absolute;
+  left: 50px;
+  top: 230px
+}

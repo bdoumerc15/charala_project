@@ -30,6 +30,7 @@
 }
 
 .footer-items {
+  text-transform: capitalize;
   width: 25%;
   padding: 10px 20px;
   box-sizing: border-box;

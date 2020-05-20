@@ -49,16 +49,17 @@ hr {
   background-color: #63b7af;
   display: inline-block;
   position: absolute;
-  left: 270px;
+  left: 220px;
   top: 35px;
 }
 
 .title {
   background-color: #63b7af;
   position: relative;
-  left: 50px;
+  left: 75px;
   font-family: 'Sacramento', cursive;
   margin-bottom: 0;
+  width: 100px;
 }
 
 .SecSection {
@@ -69,18 +70,6 @@ hr {
 .circular {
   border-radius: 100%;
   margin: 15px;
-}
-
-.Top-cloud {
-  position: absolute;
-  right: 100px;
-  top: 150px;
-}
-
-.Bottom-cloud {
-  position: absolute;
-  left: 50px;
-  top: 230px
 }
 
 .programming {

@@ -1,0 +1,1 @@
+let printButton = window.print()

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signinup.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Charalá</h1>
+                <div class="social-container">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <span>Regístrate con tu correo electrónico</span>
+                <input type="text" placeholder="Nombre" />
+                <input type="text" placeholder="Apellido" />
+                <input type="email" placeholder="Correo electrónico" />
+                <input type="password" placeholder="Contraseña" />
+                <button>Regístrate</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Inicia sesión</h1>
+                <div class="social-container">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <span>o utiliza tu cuenta</span>
+                <input type="email" placeholder="Correo electrónico" />
+                <input type="password" placeholder="Contraseña" />
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                <button>Inicia sesión</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>¡Hola de nuevo!</h1>
+                    <p>Para seguir mejorando tus habilidades, por favor, inicia sesión con nosotros</p>
+                    <button class="ghost" id="signIn">Iniciar Sesión</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>¡Aprende una nueva habilidad hoy!</h1>
+                    <p>Regístrate y conoce un mundo de posibilidades a tu alcance</p>
+                    <button class="ghost" id="signUp">Regístrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/signinup.js"></script>
+</body>
+
+</html>

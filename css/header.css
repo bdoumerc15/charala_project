@@ -1,0 +1,50 @@
+body {
+    background-color: #63b7af;
+    margin: 0;
+}
+
+button:hover {
+  background-color: #c3edea;
+}
+
+.Header {
+  margin-bottom: 10px;
+  height: 60px;
+  width: 100%;
+}
+
+.title {
+  width: 95px;
+  position: absolute;
+  left: 75px;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+}
+
+.index {
+  width: 17%;
+  border-style: none;
+  text-align: center;
+  background-color: #63b7af;
+  display: inline-block;
+  position: absolute;
+  left: 220px;
+  top: 35px;
+}
+
+.headerButtons {
+  background-color: #63b7af;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.FirstHR {
+  border-color: grey;
+  border-style: none;
+  border-top-style: inset;
+  border-width: 1px;
+  width: 100%;
+  position: relative;
+  top: 60px;
+}

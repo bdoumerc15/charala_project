@@ -7,40 +7,32 @@ body {
 button:hover {
   background-color: #c3edea;
 }
-h2 {
-  background-color: #abf0e9;
-  border: solid 1px;
-  display: inline-block;
-  position: relative;
-  left: 150px;
-  bottom: 150px;
-  width: 400px;
-  height: 300px;
+
+h3 {
+  padding-top: 10px;
 }
 
 hr {
-  border-color: grey;
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 5px;
-  width: 10%;
-}
-
-/********************* Class Selector*********************/
-.secciones {
-  background-color: #63b7af;
-  border-style: none;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-}
-
-.FirstHR {
   border-color: grey;
   border-style: none;
   border-top-style: inset;
   border-width: 1px;
   margin-top: 2px;
   width: 100%;
+}
+
+/********************* Class Selector*********************/
+.FirstSection {
+  width: 100%;
+}
+
+.title {
+  background-color: #63b7af;
+  position: relative;
+  left: 75px;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  width: 100px;
 }
 
 .index {
@@ -53,58 +45,70 @@ hr {
   top: 35px;
 }
 
-.title {
+.secciones {
   background-color: #63b7af;
-  position: relative;
-  left: 75px;
-  font-family: 'Sacramento', cursive;
-  margin-bottom: 0;
-  width: 100px;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
-.SecSection {
-  background-color: #74d4c0;
-  text-align: center;
+.Intro {
+  width: 85%;
+  height: 555px;
+  background-color: #ee8572;
+  margin: 10px auto 20px;
+  position: relative;
+}
+
+.programming {
+  width: 50%;
+  margin: 60px 40px;
+  display: inline-block;
+}
+
+.texto-programacion {
+  width: 25%;
+  height: 355px;
+  margin: 80px 60px 80px 40px;
+  padding: 10px 20px 10px 40px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  border: solid 1px;
+}
+
+.Cursos {
+  background: #00263b;
+  margin-bottom: 20px;
+}
+
+.lista-cursos {
+  width: 50%;
+  margin: 20px auto 100px;
+  text-align: justify;
+  line-height: 2;
+  padding-top: 50px;
+}
+
+.electricidad {
+  float: left;
+  margin-right: 30px;
+}
+
+.musica {
+  float: right;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.pintura {
+  float: left;
+  margin-right: 30px;
+  width: 200px;
+  height: 200px;
 }
 
 .circular {
   border-radius: 100%;
-  margin: 15px;
-}
-
-.programming {
-  margin: 0;
-  position: relative;
-  top: 50px;
-  left: 50px;
-}
-
-.images {
-  width: 200px;
-  height: 400px;
-}
-
-.text {
-  text-align: left;
-}
-
-.par {
-  text-align: left;
-  vertical-align: top;
-  height: 300px;
-}
-
-.VarCursos {
-  margin: 0;
- border-spacing: 10px;
-}
-
-.TxtBack {
-  background-color: #63b7af;
-  width: 300px;
-}
-
-.Intro {
-  background-color: #ee8572;
-  margin: 10px 100px 20px;
 }

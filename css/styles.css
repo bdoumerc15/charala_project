@@ -1,6 +1,6 @@
 /********************* Tag Selector*********************/
 body {
-  background-color: #63b7af;
+  background-color: #f7f7f7;
   margin: 0;
 }
 
@@ -15,48 +15,18 @@ h3 {
 hr {
   border-color: grey;
   border-style: none;
-  border-top-style: inset;
-  border-width: 1px;
+  border-top-style: dotted;
+  border-width: 5px;
   margin-top: 2px;
   width: 100%;
 }
 
 /********************* Class Selector*********************/
-.FirstSection {
-  width: 100%;
-}
-
-.title {
-  background-color: #63b7af;
-  position: relative;
-  left: 75px;
-  font-family: 'Sacramento', cursive;
-  margin-bottom: 0;
-  width: 100px;
-}
-
-.index {
-  border-style: none;
-  text-align: center;
-  background-color: #63b7af;
-  display: inline-block;
-  position: absolute;
-  left: 220px;
-  top: 35px;
-}
-
-.secciones {
-  background-color: #63b7af;
-  border-style: none;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-}
-
 .Intro {
   width: 85%;
   height: 555px;
-  background-color: #ee8572;
-  margin: 10px auto 20px;
+  background-color: #fdcb9e;
+  margin: 25px auto 25px;
   position: relative;
 }
 
@@ -78,7 +48,7 @@ hr {
 }
 
 .Cursos {
-  background: #00263b;
+  background: #cceabb;
   margin-bottom: 20px;
 }
 

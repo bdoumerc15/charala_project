@@ -3,50 +3,51 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Charalá | Best Courses Online</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/title.css">
+  <link rel="stylesheet" href="css/navbar.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <div class="FirstSection">
-    <div class="Header">
-      <h1 class="title">charalá</h1>
-      <table class="index">
-        <tr>
-          <td>
-            <form action="index.html" method="post">
-              <button class="secciones" type="submit" name="Inicio">inicio</button>
-            </form>
-          </td>
-          <td>
-            <form action="cursos.html" method="post">
-              <button class="secciones" type="submit" name="Cursos">cursos</button>
-            </form>
-          </td>
-          <td>
-            <form action="sobre-nosotros.html" method="post">
-              <button class="secciones" type="submit" name="sobre nosotros">sobre nosotros</button>
-            </form>
-          </td>
-          <td>
-            <form action="contactanos.html" method="post">
-              <button class="secciones" type="submit" name="Contactanos">Contactanos</button>
-            </form>
-          </td>
-        </tr>
-      </table>
-      <hr>
-      <div class="Intro">
-        <img class="programming" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="gif-programando">
-        <div class="texto-programacion">
-          <h2>Hola soy un texto</h2>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+  <div class="top-container nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        Charalá
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="navbar nav-links">
+      <a href="#index">Inicio</a>
+      <div class="subnav">
+        <button class="subnavbtn">Cursos</button>
+        <div class="subnav-content">
+          <a href="#Electricidad">Electricidad</a>
+          <a href="#Musica">Musica</a>
+          <a href="#Pintura">Pintura</a>
         </div>
       </div>
+      <a href="#conocenos">Conocenos</a>
+      <a href="#contact">Contactnos</a>
+      <a href="#signin">Signin</a>
+    </div>
+  </div>
+  <div class="Intro">
+    <img class="programming" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="gif-programando">
+    <div class="texto-programacion">
+      <h2>Hola soy un texto</h2>
+      <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
     </div>
   </div>
   <div class="Cursos">
@@ -69,7 +70,6 @@
     </div>
     <hr>
   </div>
-  <img class="circular" src="https://media2.giphy.com/media/Tia2InBEWaQgckP3UG/source.gif" alt="kiss-gif">
 </body>
 
 </html>
